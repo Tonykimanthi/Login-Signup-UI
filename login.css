@@ -1,0 +1,85 @@
+/* Login Container */
+.login_container{
+    margin: auto;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 450px;
+    margin-top: 6%;
+}
+
+/* Header Text = Login */
+.head_text{
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+}
+
+/* Login Form */
+.login_form{
+    margin-top: 50px;
+    padding-left: 15%;
+}
+#email_input, #password_input{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+/* Login Button */
+#login_button{
+    width: 80%;
+    height: 40px;
+    color: aliceblue;
+    background-color: #04aa6d;
+    border: 0;
+    font-size: 1.1em;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 4%;  
+}
+#login_button:hover{
+    background-color: #049661;
+}
+#login_button:active{
+    background-color: #037249;
+}
+
+/* FOOTER */
+.to_sign_up_page{
+    text-align: center;
+    margin-top: 15px;
+    font-family: Ubuntu, sans-serif;
+}
+
+/* Sign Up Link */
+#sign_up_link{
+    text-decoration: none;
+    padding-left: 5px;
+    color: rgba(0, 0, 255, 0.7);
+}
+#sign_up_link:hover{
+    color: rgba(255, 0, 0, 0.5);
+}
+#sign_up_link:active{
+    color: red;
+}
+
+
+/* Forgot Password Link */
+.forgot_password_link {
+    text-align: center;
+    margin-top: 6px;
+     
+}
+#forgot_pass_link{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+#forgot_pass_link:hover{
+    color: green;
+}
+#forgot_pass_link:active{
+    color: red
+}
+

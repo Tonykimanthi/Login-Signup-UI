@@ -1,0 +1,90 @@
+/* Container */
+.sign_up_container{
+    font-size: 1em;
+    margin: auto;
+    margin-top: 3%;
+    width: 350px;
+    height: 550px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 5%;
+}
+
+/* Sign up head */
+.sign_up_head{
+    margin-bottom: 50px;
+    margin-left: 25%;
+    font-family: Ubuntu, sans-serif;
+}
+
+/* First name and Last name */
+#fname{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+/* Last name */
+#lname{
+    margin-bottom: 20px;
+    width: 80%;
+    height: 30px;
+    font-size: 1.1em;
+}
+
+/* Email Address */
+#sign_up_email{
+    margin-bottom: 20px;
+    width: 80%;
+    height: 30px;
+}
+
+/* Password */
+#new_password{
+    width: 80%;
+    height: 30px;
+}
+
+/* Button */
+#sign_up_btn{
+    margin-top: 12%;
+    width: 80%;
+    height: 40px;
+    margin-left: 1%;
+    font-size: 1.1em;
+    text-align: center;
+    background-color: #04aa6d;
+    color: aliceblue;
+    border: 0;
+    border-radius: 20px;
+}
+#sign_up_btn:hover{
+    background-color: #049661;
+}
+
+/* Footer */
+.to_login_page{
+    margin-top: 10px;
+    margin-left: 6%;
+    font-family: Ubuntu, s;
+}
+
+#login_link{
+    color: rgba(0, 0, 255, 0.7);
+    text-decoration: none;
+}
+#login_link:hover{
+    color: rgba(255, 0, 0, 0.5);
+}
+#login_link:active{
+    color: red;
+}
+#privacy_policy{
+    padding-right: 40px;
+    font-size: 0.8em;
+}
+
+.terms{
+    text-decoration: none;
+}

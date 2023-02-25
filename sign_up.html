@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="icon" href="unlock.png" />
+    <link rel="stylesheet" href="sign_up.css" />
+    <link
+      rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" />
+  </head>
+  <body>
+    <div class="sign_up_container">
+      <div class="head">
+        <h1 class="sign_up_head">Sign up</h1>
+      </div>
+      <form>
+        <label for="fname">First Name:</label><br />
+        <input type="text" id="fname" placeholder="Tony" /><br />
+
+        <label for="lname">Last Name:</label><br />
+        <input type="text" id="lname" placeholder="Doe" /><br />
+
+        <label for="sign_up_email">Email:</label><br>
+        <input type="email" id="sign_up_email" placeholder="Email address"><br>
+
+        <label for="new_password">Password:</label><br />
+        <input type="password" id="new_password" placeholder="New Password" /><br />
+
+        <input type="button" value="Sign up" id="sign_up_btn" />
+      </form>
+      <footer>
+        <div class="to_login_page">
+          <span>Aready have an account?</span>
+          <a href="login.html" id="login_link">Log in</a>
+        </div>
+        <p id="privacy_policy">
+          By clicking the "Sign up" button, you are creating an account, and
+          agree to <a class="terms" href="#"><b>Terms of Service </b></a>and
+          <a class="terms" href="#"><b>Privacy Policy.</b></a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
